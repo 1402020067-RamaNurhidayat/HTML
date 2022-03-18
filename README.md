@@ -1,2 +1,140 @@
-# HTML
-&lt;!DOCTYPE html> &lt;html>     &lt;head>         &lt;!-- external css-->         &lt;link rel="stylesheet" href="../css/styles.css" />         &lt;!-- grid -->         &lt;link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">          &lt;!-- icon -->         &lt;link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">                  &lt;!-- Scrip Carausel -->         &lt;script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js">&lt;/script>         &lt;script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js">&lt;/script>     &lt;/head>              &lt;/head>     &lt;body>         &lt;div class="container-fluid">             &lt;div class="row mini-header">                 &lt;div class="col-sm-2"">                     &lt;img class="mini-icon" src="../icon/mobile-screen-button-solid.svg">                     &lt;a class="mini-header" href="https://www.tokopedia.com/mobile-apps/">Download Tokopedia App&lt;/a>                 &lt;/div>                 &lt;div class="col-sm-5">                 &lt;/div>                 &lt;div class="col-sm-5 position-right">                     &lt;a class="mini-header" href="">Tentang Tokopedia&lt;/a>                     &lt;a class="mini-header" href="">Mitra Tokopedia&lt;/a>                     &lt;a class="mini-header" href="">Mulai Berjualan&lt;/a>                     &lt;a class="mini-header" href="">Promo&lt;/a>                     &lt;a class="mini-header" href="">Tokopedia Care&lt;/a>                 &lt;/div>             &lt;/div>             &lt;div class="row medium-header">                 &lt;img class="logo" src="../img/logo-tokped.svg">                 &lt;a class="medium-header" href="">Kategori&lt;/a>                 &lt;input type="text" class="search" placeholder="Cari disini">                 &lt;img class="medium-icon" src="../icon/cart-shopping-solid.svg">                 &lt;button class="medium-header">Masuk&lt;/button>                 &lt;button class="medium-header-fill">Daftar&lt;/button>             &lt;/div>         &lt;/div>         &lt;div id="myCarousel" class="carousel slide" data-ride="carousel" style="margin: 0px 30px 0px 30px;">             &lt;!-- Indicators -->             &lt;ol class="carousel-indicators">               &lt;li data-target="#myCarousel" data-slide-to="0" class="active">&lt;/li>               &lt;li data-target="#myCarousel" data-slide-to="1">&lt;/li>             &lt;/ol>             &lt;!-- Wrapper for slides -->             &lt;div class="carousel-inner">                        &lt;div class="item active">                 &lt;img src="../img/c1.jpg" alt="Los Angeles" style="width:100%;">               &lt;/div>               &lt;div class="item">                 &lt;img src="../img/c2.jpg" alt="Chicago" style="width:100%;">               &lt;/div>             &lt;div class="item">               &lt;img src="../img/b5.jpg" alt="Chicago" style="width:100%;">             &lt;/div>             &lt;!-- Left and right controls -->             &lt;a class="left carousel-control" href="#myCarousel" data-slide="prev">               &lt;span class="glyphicon glyphicon-chevron-left">&lt;/span>               &lt;span class="sr-only">Previous&lt;/span>             &lt;/a>             &lt;a class="right carousel-control" href="#myCarousel" data-slide="next">               &lt;span class="glyphicon glyphicon-chevron-right">&lt;/span>               &lt;span class="sr-only">Next&lt;/span>             &lt;/a>         &lt;/div>                     &lt;div class="row content">             &lt;div class="col-sm-6"" style="margin: 5px;">                 &lt;h3 style="padding-bottom: 15px;">Kategori Pilihan&lt;/h3>                 &lt;div class="row">                     &lt;div class="col-sm-3 content">                         &lt;img src="../img/toy.jpg" width="100%">                     &lt;/div>                     &lt;div class="col-sm-3 content">                         &lt;img src="../img/bag.jpg" width="100%">                     &lt;/div>                     &lt;div class="col-sm-3 content">                         &lt;img src="../img/food.jpg" width="100%">                     &lt;/div>                     &lt;div class="col-sm-3 content">                         &lt;img src="../img/shoes.jpg" width="100%">                     &lt;/div>                     &lt;div class="col-sm-3 content">                         &lt;img src="../img/b78.jpg" width="100%">                     &lt;/div>                     &lt;div class="col-sm-3 content">                         &lt;img src="../img/b116.jpg" width="100%">                     &lt;/div>                     &lt;div class="col-sm-3 content">                         &lt;img src="../img/e7c.jpg" width="100%">                     &lt;/div>                     &lt;div class="col-sm-3 content">                         &lt;img src="../img/500.jpg" width="100%">                     &lt;/div>                  &lt;/div>             &lt;/div>             &lt;div class="col-sm-5"" style="margin: 5px;">                 &lt;h3 style="padding-bottom: 15px;">Top Up dan Tagihan&lt;/h3>                 &lt;div class="row" style="text-align: center;">                     &lt;div class="col-sm-3 content-nav">                         Pulsa                     &lt;/div>                     &lt;div class="col-sm-3 content-nav">                         Paket                     &lt;/div>                     &lt;div class="col-sm-3 content-nav">                         Listrik                     &lt;/div>                     &lt;div class="col-sm-3 content-nav">                         PLN                     &lt;/div>                 &lt;/div>                 &lt;div class="row" style="flex: 1 1 auto;">                     &lt;div class="col-sm-5">                         &lt;label for="">                             Nomor Telpon                         &lt;/label>                         &lt;input type="text" class="pulsa" placeholder="0812345678">                     &lt;/div>                     &lt;div class="col-sm-5">                         &lt;label for="">                             Nominal                         &lt;/label>                         &lt;input type="text" class="pulsa" disabled>                     &lt;/div>                     &lt;div class="col-sm-2" style="margin-top: 25px;">                         &lt;button class="medium-header-fill-grey">Beli&lt;/button>                     &lt;/div>                 &lt;/div>             &lt;/div>         &lt;/div>     &lt;/body> &lt;/html>
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- external css-->
+        <link rel="stylesheet" href="../css/styles.css" />
+        <!-- grid -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"> 
+        <!-- icon -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+        
+        <!-- Scrip Carausel -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    </head>
+        
+    </head>
+    <body>
+        <div class="container-fluid">
+            <div class="row mini-header">
+                <div class="col-sm-2"">
+                    <img class="mini-icon" src="../icon/mobile-screen-button-solid.svg">
+                    <a class="mini-header" href="https://www.tokopedia.com/mobile-apps/">Download Tokopedia App</a>
+                </div>
+                <div class="col-sm-5">
+                </div>
+                <div class="col-sm-5 position-right">
+                    <a class="mini-header" href="">Tentang Tokopedia</a>
+                    <a class="mini-header" href="">Mitra Tokopedia</a>
+                    <a class="mini-header" href="">Mulai Berjualan</a>
+                    <a class="mini-header" href="">Promo</a>
+                    <a class="mini-header" href="">Tokopedia Care</a>
+                </div>
+            </div>
+            <div class="row medium-header">
+                <img class="logo" src="../img/logo-tokped.svg">
+                <a class="medium-header" href="">Kategori</a>
+                <input type="text" class="search" placeholder="Cari disini">
+                <img class="medium-icon" src="../icon/cart-shopping-solid.svg">
+                <button class="medium-header">Masuk</button>
+                <button class="medium-header-fill">Daftar</button>
+            </div>
+        </div>
+        <div id="myCarousel" class="carousel slide" data-ride="carousel" style="margin: 0px 30px 0px 30px;">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+              <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+              <li data-target="#myCarousel" data-slide-to="1"></li>
+            </ol>
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+        
+              <div class="item active">
+                <img src="../img/c1.jpg" alt="Los Angeles" style="width:100%;">
+              </div>
+              <div class="item">
+                <img src="../img/c2.jpg" alt="Chicago" style="width:100%;">
+              </div>
+            <div class="item">
+              <img src="../img/b5.jpg" alt="Chicago" style="width:100%;">
+            </div>
+            <!-- Left and right controls -->
+            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+              <span class="glyphicon glyphicon-chevron-left"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" data-slide="next">
+              <span class="glyphicon glyphicon-chevron-right"></span>
+              <span class="sr-only">Next</span>
+            </a>
+        </div>
+          
+
+        <div class="row content">
+            <div class="col-sm-6"" style="margin: 5px;">
+                <h3 style="padding-bottom: 15px;">Kategori Pilihan</h3>
+                <div class="row">
+                    <div class="col-sm-3 content">
+                        <img src="../img/toy.jpg" width="100%">
+                    </div>
+                    <div class="col-sm-3 content">
+                        <img src="../img/bag.jpg" width="100%">
+                    </div>
+                    <div class="col-sm-3 content">
+                        <img src="../img/food.jpg" width="100%">
+                    </div>
+                    <div class="col-sm-3 content">
+                        <img src="../img/shoes.jpg" width="100%">
+                    </div>
+                    <div class="col-sm-3 content">
+                        <img src="../img/b78.jpg" width="100%">
+                    </div>
+                    <div class="col-sm-3 content">
+                        <img src="../img/b116.jpg" width="100%">
+                    </div>
+                    <div class="col-sm-3 content">
+                        <img src="../img/e7c.jpg" width="100%">
+                    </div>
+                    <div class="col-sm-3 content">
+                        <img src="../img/500.jpg" width="100%">
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-sm-5"" style="margin: 5px;">
+                <h3 style="padding-bottom: 15px;">Top Up dan Tagihan</h3>
+                <div class="row" style="text-align: center;">
+                    <div class="col-sm-3 content-nav">
+                        Pulsa
+                    </div>
+                    <div class="col-sm-3 content-nav">
+                        Paket
+                    </div>
+                    <div class="col-sm-3 content-nav">
+                        Listrik
+                    </div>
+                    <div class="col-sm-3 content-nav">
+                        PLN
+                    </div>
+                </div>
+                <div class="row" style="flex: 1 1 auto;">
+                    <div class="col-sm-5">
+                        <label for="">
+                            Nomor Telpon
+                        </label>
+                        <input type="text" class="pulsa" placeholder="0812345678">
+                    </div>
+                    <div class="col-sm-5">
+                        <label for="">
+                            Nominal
+                        </label>
+                        <input type="text" class="pulsa" disabled>
+                    </div>
+                    <div class="col-sm-2" style="margin-top: 25px;">
+                        <button class="medium-header-fill-grey">Beli</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
